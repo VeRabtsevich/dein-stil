@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-      <div class="container header-nav">
+    <header >
+      <div class="container header-nav" id="header-top">
         <nav
-          class="d-flex flex-wrap justify-content-center py-3 mb-lg-4 mb-ms-2 border-bottom"
+          class="d-flex flex-wrap justify-content-center py-3 mb-lg-3 mb-ms-2 border-bottom"
         >
           <a
             href="#!"
@@ -33,16 +33,16 @@
               >
             </li>
             <li class="nav-item">
-              <a href="#price" class="nav-link fs-5 btn-itd">Услуги и цены</a>
+              <a href="#price" class="nav-link fs-4 btn-itd">Услуги и цены</a>
             </li>
             <li class="nav-item">
-              <a href="#reviews" class="nav-link fs-5 btn-itd">Отзывы</a>
+              <a href="#reviews" class="nav-link fs-4 btn-itd">Отзывы</a>
             </li>
             <li class="nav-item">
-              <a href="#footer" class="nav-link fs-5 btn-itd">Контакты</a>
+              <a href="#footer" class="nav-link fs-4 btn-itd">Контакты</a>
             </li>
             <li class="nav-item">
-              <a href="#about" class="nav-link fs-5 btn-itd">обо мне</a>
+              <a href="#about" class="nav-link fs-4 btn-itd">обо мне</a>
             </li>
           </ul>
         </nav>
@@ -269,7 +269,7 @@
         </div>
       </div>
     </section>
-    <section class="mein-carusel">
+    <section class="mein-carusel" id="galery">
       <div class="container">
         <div class="row">
           <div id="carouselExample" class="carousel slide">
@@ -359,7 +359,7 @@
             <h4 class="text-center title text-dark mb-1 mt-0">Маникюр</h4>
             <p class="text-center fs-5 text-dark">800р</p>
             <p class="text-center text-dark">
-              Классический/аппаратный педикюр без покрытия
+              Классический/аппаратный маникюр без покрытия
             </p>
             <div class="line bg-dark"></div>
           </div>
@@ -427,55 +427,23 @@
             <a href="#!" target="_blank" class="btn btn-outline-dark"
               ><i class="bi bi-telegram"></i
             ></a>
-            <a
-              class="btn btn-outline-dark"
-              target="_blank"
-              href="mailto:ismail_2016@mail.ru?subject=Вопрос по курсу html+css&amp;body=Здравствуйте, ITDoctor,"
+            <a class="btn btn-outline-dark" target="_blank" href="#1"
               ><i class="icon-mail-alt"></i
             ></a>
           </div>
         </div>
       </div>
     </footer>
-
-    <!-- Modal -->
-    <div
-      class="modal fade"
-      id="mayModal"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">
-              Трейлер видео курса по верстке HTML CSS
-            </h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            <div class="embed-container">
-              <iframe
-                width="800"
-                height="500"
-                src="https://www.youtube.com/embed/rQ8eoNahWV4?si=fYOMh57o5bHJLRLB"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
-              ></iframe>
-            </div>
-          </div>
+    <div class="row fixed-bottom">
+      <div class="container">
+        <div class="col-12">
+          <a class="btn btn-outline-dark top-link" href="#header-top"
+            ><i class="bi bi-chevron-double-up"></i>
+          </a>
         </div>
       </div>
     </div>
+
     <script src="./js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
